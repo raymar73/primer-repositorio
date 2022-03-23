@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+}
+
+.titulo-1 {
+    background-color: aqua;
+}
+
+#titulo-2 {
+    background-color: greenyellow;
+}
+
+.nombre {
+    font-size: 28px;
+    color: red;
+    list-style: lower-roman;
+}
+
+.unico {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 56px;
+}
+
+.marco {
+    background-color: blue;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    bottom: 620;
+}
+
+.fotos {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.texto {
+    background-color: darkmagenta;
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
